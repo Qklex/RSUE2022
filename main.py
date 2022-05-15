@@ -5,7 +5,7 @@ import numpy as np
 from flask import *
 import pickle
 import sklearn
-from pandas.core.dtypes.common import classes
+
 
 ALLOWED_EXTENSIONS = set(['csv','xls','xlsx'])
 app = Flask(__name__)
